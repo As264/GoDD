@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>選 課 系 統</title>
+    <style>
+        td {
+            text-align: center;
+            font-style: oblique;
+            font-weight: 600;
+            font-family: sans-serif;
+            
+        }
+        table {
+            border-radius: 15px;
+            display: grid;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        td,tr {
+            padding: 15px;
+        }
+        ttt {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+       .s {
+           text-shadow:  0 0 3px #FF0000;
+           font-size: 35px;
+           font-weight: 800;
+           font-style: italic;
+       }
+       td,tr {
+           border-radius: 15px;
+       }
+       .f {
+        font-size: 30px;
+        font-weight: 800;
+        grid-column-start: 2;
+        text-shadow:  0 0 3px  #FF0;
+        margin: 0;
+       }
+       .l {
+        text-align: center;
+        font-size: 70px;
+       }
+       y {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       }
+       footer {
+        text-align: center;
+        font-size: 30px;
+        grid-column-start: 2;
+       }
+       .container {
+           font-size: 35px;
+       }
+       .card-header {
+           text-align: center;
+       }
+       .card-footer {
+           text-align: center;
+       }
+       .i {
+        display: grid;
+        grid-column-start: 2;
+        grid-row-start: 2;
+       }
+       .rt {
+           text-align: center;
+       }
+    </style>
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>  
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            
+          </div>
+          <div class="col-10">
+            選課系統
+          </div>
+          <div class="col">
+            
+          </div>
+        </div>
+      </div>
+      <ttt>
+    <table width="800" class="table table-striped table-dark table-bordered table-hover">
+        <tr>
+            <td id="a" scope ="col">   </td>
+            <td class="v" scope ="col">星期一</td>
+            <td class="v" scope ="col">星期二</td>
+            <td class="v" scope ="col">星期三</td>
+            <td class="v" scope ="col">星期四</td>
+            <td class="v" scope ="col">星期五</td>
+        </tr>
+        <tr>
+            <td class="d" scope ="row">09:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>軟體工程專題</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td class="d" scope ="row">10:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>軟體工程專題</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td class="d" scope ="row">11:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>軟體工程專題</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td class="d" scope ="row">12:10</td>
+            <td colspan="5" class="s">午休</td>
+        </tr>
+        <tr>
+            <td class="d" scope ="row">13:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>資訊概論</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td class="d" scope ="row">14:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>資訊概論</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td class="d" scope ="row">15:10</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+            <td>資訊概論</td>
+            <td>python基礎程式設計</td>
+            <td>web基礎程式設計</td>
+        </tr>
+        <tr>
+            <td class="d" scope ="row">16:10</td>
+            <td colspan="5"></td>
+        </tr>
+    </table>
+    <div class="f">
+    <div class="card border-primary mb-3 card text-white bg-dark mb-3">
+        <div class="card-header">
+            歡迎!D123456
+        </div>
+    <ul class="list-group list-group-flush ">
+        <li class="list-group-item card text-white bg-dark mb-3">帳號:D123456</li>
+        <li class="list-group-item card text-white bg-dark mb-3">密碼:*********</li>
+        <div class="card-footer"><a class="btn btn-primary btn-lg active" href="#">
+            登出
+        </a></div>
+    </ul>
+</div>
+</div>
+<table class="i table table-striped table-dark table-bordered table-hover" >
+    <tr>
+        
+        <td>科目名稱</td>
+        <td>選課代號</td>
+        <td colspan="3" class="rt">介紹</td>
+        <td>科目名稱</td>
+        <td>選課代號</td>
+        <td colspan="3" class="rt">介紹</td>
+        <td>科目名稱</td>
+        <td>選課代號</td>
+        <td colspan="3" class="rt">介紹</td>
+    </tr>
+    <tr>
+        
+        <td>國文</td>
+        <td>3547</td>
+        <td colspan="3">000</td>
+        <td>國文</td>
+        <td>3547</td>
+        <td colspan="3">000</td>
+        <td>國文</td>
+        <td>3547</td>
+        <td colspan="3">000</td>
+    </tr>
+    <tr>
+        
+        <td>英文</td>
+        <td>8956</td>
+        <td colspan="3">000</td>
+        <td>英文</td>
+        <td>8956</td>
+        <td colspan="3">000</td>
+        <td>英文</td>
+        <td>8956</td>
+        <td colspan="3">000</td>
+    </tr>
+    <tr>
+        
+        <td>數學</td>
+        <td>6632</td>
+        <td colspan="3">000</td>
+        <td>數學</td>
+        <td>6632</td>
+        <td colspan="3">000</td>
+        <td>數學</td>
+        <td>6632</td>
+        <td colspan="3">000</td>
+    </tr>
+    <tr>
+        
+        <td>數學</td>
+        <td>6632</td>
+        <td colspan="3">000</td>
+        <td>數學</td>
+        <td>6632</td>
+        <td colspan="3">000</td>
+        <td>數學</td>
+        <td>6632</td>
+        <td colspan="3">000</td>
+    </tr>
+    <tr>
+        
+        <td>數學</td>
+        <td>6632</td>
+        <td colspan="3">000</td>
+        <td>數學</td>
+        <td>6632</td>
+        <td colspan="3">000</td>
+        <td>數學</td>
+        <td>6632</td>
+        <td colspan="3">000</td>
+    </tr>
+</table>
+</ttt>
+<y>
+    <footer>
+        地址:台中市西屯區
+    </footer>
+    <footer>
+        電話:03-25698452
+    </footer>
+</y>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

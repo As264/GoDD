@@ -16,10 +16,14 @@
             border-radius: 15px;
             border-color: chocolate;
             background-color: blueviolet;
+            display: grid;
+            grid-row-start: 1;
+            grid-row-end: 3;
         }
         ttt {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
             
         }
         table,td,tr {
@@ -80,6 +84,11 @@
         text-align: center;
         font-size: 30px;
         grid-column-start: 2;
+       }
+       .i {
+        display: grid;
+        grid-column-start: 2;
+        grid-row-start: 2;
        }
     </style>
 
@@ -158,11 +167,49 @@
         </tr>
     </table>
     <ul class="f">
-        <li class="l" colspan="4">登入系統</li>
-        <li>帳號:</li>
-        <li>密碼:</li>
-        <li>忘記密碼?</li>
+        <li class="l" colspan="4">歡迎!D123456</li>
+        <li>帳號:D12345</li>
+        <li>密碼:***********</li>
+        <li>登出</li>
     </ul>
+    <table class="i">
+        <tr>
+            
+            <td>科目名稱</td>
+            <td>選課代號</td>
+            <td colspan="3">介紹</td>
+        </tr>
+        <tr>
+            
+            <td>國文</td>
+            <td>3547</td>
+            <td colspan="3">000</td>
+        </tr>
+        <tr>
+            
+            <td>英文</td>
+            <td>8956</td>
+            <td colspan="3">000</td>
+        </tr>
+        <tr>
+            
+            <td>數學</td>
+            <td>6632</td>
+            <td colspan="3">000</td>
+        </tr>
+        <tr>
+            
+            <td>數學</td>
+            <td>6632</td>
+            <td colspan="3">000</td>
+        </tr>
+        <tr>
+            
+            <td>數學</td>
+            <td>6632</td>
+            <td colspan="3">000</td>
+        </tr>
+    </table>
 </ttt>
 <y>
     <footer>
